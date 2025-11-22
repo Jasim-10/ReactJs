@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(233, 142, 77);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: white;
+  letter-spacing: normal;
+  font-size: 36px;
+}
+
+h4{
+  color: rgb(149, 194, 212);
+}
+button{
+  margin: 6px;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  border: transparent;
+  border-radius: 4px;
+}
+
+button:hover{
+  border:1px solid white;
+}
